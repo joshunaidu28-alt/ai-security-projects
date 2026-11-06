@@ -1,0 +1,3 @@
+The actor gained access using a password spray against exposed SSH servers, then ran an
+encoded command in PowerShell to fetch a payload. certutil was used for tool transfer and a
+scheduled task created persistence.

